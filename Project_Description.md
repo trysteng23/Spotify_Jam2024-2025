@@ -5,7 +5,7 @@
 ## Team Name: Team Apollo
 
 **Team Members and Major**:  
-- Trysten Giorgione – Computer Science major
+- Trysten Giorgione – Computer Science major (giorgite@mail.uc.edu)
 
 ## Project Topic Area
 
