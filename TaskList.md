@@ -2,7 +2,7 @@
 
 ## Project: Spotify Web Application - Jam Functionality Upgrade
 
-### Team Members
+### Trysten Giorgiones
 - **Trysten Giorgione** - Computer Science Major
 
 ### Task List
@@ -12,7 +12,7 @@
    Research and document how to use Spotify's API to access the current queue and jam functionalities.
 
 2. **Design UI for the queue system**  
-   _Assigned to: [Team Member]_  
+   _Assigned to: [Trysten Giorgione]_  
    Design the user interface to display a fair queue rotation among multiple users.
 
 3. **Develop backend logic for fair queue management**  
@@ -20,7 +20,7 @@
    Implement the core logic to manage user queues and rotations using algorithms like round-robin.
 
 4. **Test queue algorithms for fairness**  
-   _Assigned to: [Team Member]_  
+   _Assigned to: [Trysten Giorgione]_  
    Create test cases to validate the fairness and performance of the queue rotation algorithms.
 
 5. **Integrate sorting and randomization options**  
@@ -28,15 +28,15 @@
    Develop options for users to choose between different queue sorting algorithms, including randomization.
 
 6. **Document the API calls and responses**  
-   _Assigned to: [Team Member]_  
+   _Assigned to: [Trysten Giorgione]_  
    Write detailed documentation on how the application interacts with Spotify’s API and handles data.
 
 7. **Create a user authentication system**  
-   _Assigned to: [Team Member]_  
+   _Assigned to: [Trysten Giorgione]_  
    Implement user login and authentication using Spotify’s OAuth2 protocol.
 
 8. **Validate user inputs and handle edge cases**  
-   _Assigned to: [Team Member]_  
+   _Assigned to: [Trysten Giorgione]_  
    Ensure all user inputs are correctly validated, and edge cases are handled in the queue.
 
 9. **Set up continuous integration for the project**  
@@ -44,11 +44,11 @@
    Integrate tools for continuous testing and deployment of the project.
 
 10. **Prepare and deploy the web application**  
-   _Assigned to: [Team Member]_  
+   _Assigned to: [Trysten Giorgione]_  
    Deploy the web app on a hosting platform and ensure that it is accessible to users.
 
 11. **Test the entire system for performance**  
-   _Assigned to: [Team Member]_  
+   _Assigned to: [Trysten Giorgione]_  
    Perform full system tests to ensure that the application performs well under load with multiple users.
 
 12. **Obtain feedback from users and refine the system**  
