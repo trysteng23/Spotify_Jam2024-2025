@@ -90,8 +90,9 @@ The development of this Spotify web application product might be a little tricky
 ## Professional Biographies
 [Trysten Giorgione]:\ 
 **Co-op Experience**\
+\
     **• Software Development Intern, CIMx Software, Cincinnati Ohio (2 Semesters):**\
-        *o	Worked on flagship software Quantum for manufacturing production efficiency\
+        > *o	Worked on flagship software Quantum for manufacturing production efficiency\
         o	Worked on software UI using JavaScript\
         o	Interacted with database using SQL to create software functionality that utilizes inventory\
         o	Regression tested the software capabilities before big releases and changes\
