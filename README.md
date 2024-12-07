@@ -49,7 +49,7 @@
 ![Task Timeline](Task_Timeline_MkII.png)  
 
 ### Effort Matrix
-![Effort Matrix](Task_effor_matrix_mkII.png) 
+![Effort Matrix](Task_effort_matrix_mkII.png) 
 
 ---
 
