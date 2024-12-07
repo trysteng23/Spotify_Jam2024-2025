@@ -74,7 +74,7 @@
 ---
 
 ## Self-Assessment Essays
-*Trysten’s Capstone Assessment:\
+*Trysten’s Capstone Assessment:
 > This senior design project is something that I believe is very important for my future. One thing that this project is about to me is utilizing knowledge that I have learned from classes up until now and hardening those skills. Not only knowledge from classes though. I will be able to utilize and harden my skills from Co-Ops and life that I have picked up until now as well. Using these practices and skills all together to create a project will be a great way to demonstrate my capabilities, not only to myself, but potential employers. Additionally, I really think that the project that is in development from Team Apollo could be one that provides a nice benefit to Spotify users, like me, and I look forward to even just being able to utilize it with my friends and family.\
 > \
 From being a student at the University of Cincinnati (UC), I have learned many skills and concepts which I think will help me guide myself down the proper paths for developing my project. Firstly, as a freshman CEAS student, I participated in two ‘Engineering Design Thinking’ course (ENED-1100 and ENED-1120), which help students in the engineering design/problem solving processes. Having a rough process to follow will be helpful in at least staying on track during this development period. Soft-skills wise, I was also very fortunate to have been in the ‘Software Engineering’ (EECE-3093) class that I was in. In that class we learned how to use many standard development tools and techniques with Git-Hub as a repository. Other than those 2 classes, I also learned many things about databases in ‘Database Design/Development’ (CS-4092), data structures, algorithms in ‘D&A of Algorithms’ (CS-4071), and AI in ‘AI Principles and Applications’ (CS-4033) that will surely be beneficial in making this project.\
@@ -88,7 +88,7 @@ The development of this Spotify web application product might be a little tricky
 ---
 
 ## Professional Biographies
-[Trysten Giorgione]:\ 
+[Trysten Giorgione]:\
 **Co-op Experience**
 \
 **Software Development Intern, CIMx Software, Cincinnati Ohio (2 Semesters):**
@@ -114,7 +114,7 @@ The development of this Spotify web application product might be a little tricky
 > • **Office Applications:**    Microsoft Office Package, Clip Studio Paint
 
 
-**Areas of Interest**\
+**Areas of Interest**
 > •	*Artificial Intelligence*\
 > •	*Electrical Physics*\
 > •	*Music Production and Animation*
