@@ -130,5 +130,7 @@ The development of this Spotify web application product might be a little tricky
 ---
 
 ## Appendix
-*Include references, citations, links to code repositories, and meeting notes.*  
-*Document evidence for 45+ hours of effort per team member.*
+> - [UI Sketches](UI_Brainstorming.png)
+> - [Queue Logic Brainstorming](Queue_Logic_Brainstorming.png)
+> - [Current Research](Research.md)
+> - [Idea Brainstorming List](Ideas.md)
