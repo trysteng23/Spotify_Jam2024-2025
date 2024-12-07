@@ -91,29 +91,27 @@ The development of this Spotify web application product might be a little tricky
 [Trysten Giorgione]:\ 
 **Co-op Experience**\
 \
-    **• Software Development Intern, CIMx Software, Cincinnati Ohio (2 Semesters):**\
-        > *o	Worked on flagship software Quantum for manufacturing production efficiency\
-        o	Worked on software UI using JavaScript\
-        o	Interacted with database using SQL to create software functionality that utilizes inventory\
-        o	Regression tested the software capabilities before big releases and changes\
-    •Data Science Intern, Toyobo, Katata, Otsu, Japan (2 Semesters):*\
-        o	Interacted with co-workers in Japanese\
-        o	Used data science techniques to aid researchers in analyzing research data\
-            	Numpy\
-            	Pandas\
-            	Seaborn\
-Skills
-    •	Programming:    C++, C, Python, SQL, HTML\
-    •	Operating Systems:    Windows\
-    •	Office Applications:    Microsoft Office Package, Clip Studio Paint\
-Areas of Interest\
-    •	Artificial Intelligence\
-    •	Electrical Physics\
-    •	Music Production and Animation\
-Type of Project Sought\
-  •	A Spotify web application that creates fair queues when multiple people are in a queue\
-  •	People are fairly represented in the songs that play (A rotation of users)\
-  •	Additional fun features like saving a playing session as a playlist\
+**• Software Development Intern, CIMx Software, Cincinnati Ohio (2 Semesters):**\
+> *o	Worked on flagship software Quantum for manufacturing production efficiency\
+> o	Worked on software UI using JavaScript\
+> o	Interacted with database using SQL to create software functionality that utilizes inventory\
+> o	Regression tested the software capabilities before big releases and changes*\
+\
+**•Data Science Intern, Toyobo, Katata, Otsu, Japan (2 Semesters):**\
+> o	Interacted with co-workers in Japanese\
+> o	Used data science techniques to aid researchers in analyzing research data\
+> > 	Numpy\
+> > 	Pandas\
+> > 	Seaborn\
+\
+**Skills**\
+> •	**Programming:**    C++, C, Python, SQL, HTML\
+> •**	Operating Systems:**    Windows\
+> •**	Office Applications:**    Microsoft Office Package, Clip Studio Paint\
+**Areas of Interest**\
+> •	*Artificial Intelligence*\
+> •	*Electrical Physics*\
+> •	*Music Production and Animation*\
 *
 
 ---
