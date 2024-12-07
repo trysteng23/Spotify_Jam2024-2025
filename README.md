@@ -77,7 +77,7 @@
 *Trysten’s Capstone Assessment:\
 > This senior design project is something that I believe is very important for my future. One thing that this project is about to me is utilizing knowledge that I have learned from classes up until now and hardening those skills. Not only knowledge from classes though. I will be able to utilize and harden my skills from Co-Ops and life that I have picked up until now as well. Using these practices and skills all together to create a project will be a great way to demonstrate my capabilities, not only to myself, but potential employers. Additionally, I really think that the project that is in development from Team Apollo could be one that provides a nice benefit to Spotify users, like me, and I look forward to even just being able to utilize it with my friends and family.\
 > \
-    > From being a student at the University of Cincinnati (UC), I have learned many skills and concepts which I think will help me guide myself down the proper paths for developing my project. Firstly, as a freshman CEAS student, I participated in two ‘Engineering Design Thinking’ course (ENED-1100 and ENED-1120), which help students in the engineering design/problem solving processes. Having a rough process to follow will be helpful in at least staying on track during this development period. Soft-skills wise, I was also very fortunate to have been in the ‘Software Engineering’ (EECE-3093) class that I was in. In that class we learned how to use many standard development tools and techniques with Git-Hub as a repository. Other than those 2 classes, I also learned many things about databases in ‘Database Design/Development’ (CS-4092), data structures, algorithms in ‘D&A of Algorithms’ (CS-4071), and AI in ‘AI Principles and Applications’ (CS-4033) that will surely be beneficial in making this project.\
+From being a student at the University of Cincinnati (UC), I have learned many skills and concepts which I think will help me guide myself down the proper paths for developing my project. Firstly, as a freshman CEAS student, I participated in two ‘Engineering Design Thinking’ course (ENED-1100 and ENED-1120), which help students in the engineering design/problem solving processes. Having a rough process to follow will be helpful in at least staying on track during this development period. Soft-skills wise, I was also very fortunate to have been in the ‘Software Engineering’ (EECE-3093) class that I was in. In that class we learned how to use many standard development tools and techniques with Git-Hub as a repository. Other than those 2 classes, I also learned many things about databases in ‘Database Design/Development’ (CS-4092), data structures, algorithms in ‘D&A of Algorithms’ (CS-4071), and AI in ‘AI Principles and Applications’ (CS-4033) that will surely be beneficial in making this project.\
 > \
 In addition to my courses from UC helping me with this future development, my previous Co-Op experiences that I received while at UC are also going to be a great help. For my first 2 Co-Op terms, I was a computer science intern at the company called CIMx. At this company, I got to learn many new skills with work and computer science that I did not get to in classes. For instance, before even having a database class, I got the opportunity to work with CIMx on their flagship product ‘Quantum’, which utilizes a lot of code in SQL. On top of that, I got to harness new skills with JavaScript to help develop the look of the software. After working at CIMx, I did a semester of EEP where I got personally work on a music related project where I had to also manage my time and resources to work on a personal project. I had to find a supervisor to work with, learn new skills in computer engineering design and development (i.e. KiCAD and electrical physics). My final Co-Op was 2 semesters long and was very beneficial to me as a person. I lived abroad in Japan and learned a lot about my character and picked up life skills. Communication is one big one. I had to communicate in a foreign language to do anything. I also had to make friends and get involved in the culture. These personally enlightening experiences coupled with my need to manage my time and resources (since nobody was going to come do it for me) are also going to be very beneficial in this project.\
 > \
@@ -88,14 +88,14 @@ The development of this Spotify web application product might be a little tricky
 ---
 
 ## Professional Biographies
-*[Trysten Giorgione]:\ 
-Co-op Experience\
-    • Software Development Intern, CIMx Software, Cincinnati Ohio (2 Semesters):\
-        o	Worked on flagship software Quantum for manufacturing production efficiency\
+[Trysten Giorgione]:\ 
+**Co-op Experience**\
+    **• Software Development Intern, CIMx Software, Cincinnati Ohio (2 Semesters):**\
+        *o	Worked on flagship software Quantum for manufacturing production efficiency\
         o	Worked on software UI using JavaScript\
         o	Interacted with database using SQL to create software functionality that utilizes inventory\
         o	Regression tested the software capabilities before big releases and changes\
-    •Data Science Intern, Toyobo, Katata, Otsu, Japan (2 Semesters):\
+    •Data Science Intern, Toyobo, Katata, Otsu, Japan (2 Semesters):*\
         o	Interacted with co-workers in Japanese\
         o	Used data science techniques to aid researchers in analyzing research data\
             	Numpy\
