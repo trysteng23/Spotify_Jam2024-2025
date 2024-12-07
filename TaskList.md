@@ -23,9 +23,9 @@
    _Assigned to: [Trysten Giorgione]_  
    Create test cases to validate the fairness and performance of the queue rotation algorithms.
 
-5. **Integrate sorting and randomization options**  
+5. **Integrate sorting**  
    _Assigned to: Trysten Giorgione_  
-   Develop options for users to choose between different queue sorting algorithms, including randomization.
+   Develop the integration of the fair sorting so that it can be turned on or off while also allowing for the freedom of slight adjustments to the queue from the host.
 
 6. **Document the API calls and responses**  
    _Assigned to: [Trysten Giorgione]_  
