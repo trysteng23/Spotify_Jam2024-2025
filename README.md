@@ -20,13 +20,12 @@
 **Advisor:** [TBA]  
 
 **Abstract:**  
-> *This project aims to create a web application that improves Spotify’s group listening functionality by implementing fair queue management. Using the Spotify API, our solution will ensure all users in a shared session are equally represented in the song rotation. This approach will enhance user satisfaction and encourage a more enjoyable, balanced experience for group listening. Key aspects include API integration, queue logic design, and a user-friendly interface for selecting queue preferences. This project addresses technical, ethical, and legal constraints associated with fair queue management.
-*
+> This project aims to create a web application that improves Spotify’s group listening functionality by implementing fair queue management. Using the Spotify API, our solution will ensure all users in a shared session are equally represented in the song rotation. This approach will enhance user satisfaction and encourage a more enjoyable, balanced experience for group listening. Key aspects include API integration, queue logic design, and a user-friendly interface for selecting queue preferences. This project addresses technical, ethical, and legal constraints associated with fair queue management.
 
 ---
 
 ## Project Description
-> *Spotify's Jam feature is great, but could still use some work. Inherintly, the Jam queue is unfair and plays songs chronologically in the order that they were added. This project aims to bring some life to Spotify's Jam feature by allowing for fair rotations amongst users as well as bringing some potential fun features like 'vote_skip' or 'save_played_songs_to_playlist'.*
+> Spotify's Jam feature is great, but could still use some work. Inherintly, the Jam queue is unfair and plays songs chronologically in the order that they were added. This project aims to bring some life to Spotify's Jam feature by allowing for fair rotations amongst users as well as bringing some potential fun features like 'vote_skip' or 'save_played_songs_to_playlist'.
 
 ---
 
