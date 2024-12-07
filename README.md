@@ -16,7 +16,7 @@
 
 ## Team Names and Project Abstract
 **Team Members:**
-- [Trysten Giorgione]\
+- Trysten Giorgione\
 **Advisor:** [TBA]  
 
 **Abstract:**  
