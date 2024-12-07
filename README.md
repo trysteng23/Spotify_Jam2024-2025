@@ -43,7 +43,7 @@
 
 ## Project Tasks and Timeline
 ### Task List
-*Outline all major tasks and their current status.*  
+![Task List in text](task_list.md)  
 
 ### Timeline
 *Provide a Gantt chart or timeline graphic.*  
