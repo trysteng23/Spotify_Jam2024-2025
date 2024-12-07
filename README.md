@@ -43,13 +43,13 @@
 
 ## Project Tasks and Timeline
 ### Task List
-![Task List](TaskList.md)  
+[Task List](TaskList.md)  
 
 ### Timeline
-*Provide a Gantt chart or timeline graphic.*  
+![Task Timeline](Task_Timeline_MkII.png)  
 
 ### Effort Matrix
-*Show the distribution of work hours per team member.*
+![Effort Matrix](Task_effor_matrix_mkII.png) 
 
 ---
 
