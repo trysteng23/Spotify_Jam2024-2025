@@ -123,9 +123,9 @@ The development of this Spotify web application product might be a little tricky
 ---
 
 ## Budget
-*[Expenses]:
-    o Spotify Premium $11.99/month\
-*
+**Expenses:**
+> o Spotify Premium $11.99/month\
+
 
 ---
 
