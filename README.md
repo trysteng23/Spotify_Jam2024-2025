@@ -103,7 +103,7 @@ The development of this Spotify web application product might be a little tricky
 > > 	Numpy\
 > > 	Pandas\
 > > 	Seaborn\
-\
+
 
 
 **Skills**\
