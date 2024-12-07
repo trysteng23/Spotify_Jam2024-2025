@@ -43,7 +43,7 @@
 
 ## Project Tasks and Timeline
 ### Task List
-![Task List in text](task_list.md)  
+![Task List](TaskList.md)  
 
 ### Timeline
 *Provide a Gantt chart or timeline graphic.*  
