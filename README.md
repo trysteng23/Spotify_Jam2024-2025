@@ -33,7 +33,7 @@
 ## User Stories and Design Diagrams
 ### User Stories
 *“As a user, when I am listening to music with my friends I want everyone to be fairly represented in the songs that play”*\
-*“When using Spotify, I think it would be cool if there were different ways of sorting/randomizing queued songs”*\
+*“When using Spotify, I think it would be cool if there were different ways of sorting/randomizing queued songs”*
 
 
 
@@ -95,24 +95,24 @@ Co-op Experience\
         	Pandas\
         	Seaborn\
 Skills
-  •	Programming:		C++, C, Python, SQL, HTML
-  •	Operating Systems: 	Windows
-  •	Office Applications: 	Microsoft Office Package, Clip Studio Paint
-Areas of Interest
-  •	Artificial Intelligence
-  •	Electrical Physics
-  •	Music Production and Animation
-Type of Project Sought
-  •	A Spotify web application that creates fair queues when multiple people are in a queue
-  •	People are fairly represented in the songs that play (A rotation of users)
-  •	Additional fun features like saving a playing session as a playlist
+  •	Programming:		C++, C, Python, SQL, HTML/
+  •	Operating Systems: 	Windows/
+  •	Office Applications: 	Microsoft Office Package, Clip Studio Paint/
+Areas of Interest/
+  •	Artificial Intelligence/
+  •	Electrical Physics/
+  •	Music Production and Animation/
+Type of Project Sought/
+  •	A Spotify web application that creates fair queues when multiple people are in a queue/
+  •	People are fairly represented in the songs that play (A rotation of users)/
+  •	Additional fun features like saving a playing session as a playlist/
 *
 
 ---
 
 ## Budget
 *[Expenses]:
-  o Spotify Premium $11.99/month
+  o Spotify Premium $11.99/month/
 *
 
 ---
