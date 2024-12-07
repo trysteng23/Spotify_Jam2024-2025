@@ -91,7 +91,7 @@ The development of this Spotify web application product might be a little tricky
 [Trysten Giorgione]:\ 
 **Co-op Experience**
 \
-**• Software Development Intern, CIMx Software, Cincinnati Ohio (2 Semesters):**
+**Software Development Intern, CIMx Software, Cincinnati Ohio (2 Semesters):**
 > *o	Worked on flagship software Quantum for manufacturing production efficiency\
 > o	Worked on software UI using JavaScript\
 > o	Interacted with database using SQL to create software functionality that utilizes inventory\
@@ -99,7 +99,7 @@ The development of this Spotify web application product might be a little tricky
 
 
 
-**•Data Science Intern, Toyobo, Katata, Otsu, Japan (2 Semesters):**
+**Data Science Intern, Toyobo, Katata, Otsu, Japan (2 Semesters):**
 > o	Interacted with co-workers in Japanese\
 > o	Used data science techniques to aid researchers in analyzing research data
 > > 	Numpy\
