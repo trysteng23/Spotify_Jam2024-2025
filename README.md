@@ -95,29 +95,29 @@ The development of this Spotify web application product might be a little tricky
 > *o	Worked on flagship software Quantum for manufacturing production efficiency\
 > o	Worked on software UI using JavaScript\
 > o	Interacted with database using SQL to create software functionality that utilizes inventory\
-> o	Regression tested the software capabilities before big releases and changes*\
+> o	Regression tested the software capabilities before big releases and changes*
 
 
 
 **•Data Science Intern, Toyobo, Katata, Otsu, Japan (2 Semesters):**
 > o	Interacted with co-workers in Japanese\
-> o	Used data science techniques to aid researchers in analyzing research data\
+> o	Used data science techniques to aid researchers in analyzing research data
 > > 	Numpy\
 > > 	Pandas\
-> > 	Seaborn\
+> > 	Seaborn
 
 
 
 **Skills**
 > •	**Programming:**    C++, C, Python, SQL, HTML\
 > • **Operating Systems:**    Windows\
-> • **Office Applications:**    Microsoft Office Package, Clip Studio Paint\
+> • **Office Applications:**    Microsoft Office Package, Clip Studio Paint
 
 
 **Areas of Interest**\
 > •	*Artificial Intelligence*\
 > •	*Electrical Physics*\
-> •	*Music Production and Animation*\
+> •	*Music Production and Animation*
 *
 
 ---
