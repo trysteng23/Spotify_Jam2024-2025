@@ -1,0 +1,23 @@
+To test queue/add or queue/skip or queue/pause or queue/play routes:
+      1. copy the token after auth/login success
+      2. in terminal, set a shell variable for token $token = ""
+      3a. invoke the queue/add query:
+                Invoke-RestMethod -Uri "http://localhost:5000/queue/add" -Method Post `
+-Headers @{ "Content-Type"="application/json"; "Authorization"="Bearer $token" } `
+-Body '{"trackUri":"spotify:track:4cOdK2wGLETKBW3PvgPWqT"}'
+
+      3b. Queue/skip query:
+      Invoke-RestMethod -Uri "http://localhost:5000/queue/skip" -Method Post -Headers @{
+    "Authorization"="Bearer $token"
+}
+
+      3c. Pause playback:
+      Invoke-RestMethod -Uri "http://localhost:5000/queue/pause" -Method Post -Headers @{
+    "Authorization"="Bearer $token"
+}
+
+      3d. Resume playback:
+      Invoke-RestMethod -Uri "http://localhost:5000/queue/play" -Method Post -Headers @{
+    "Authorization"="Bearer $token"
+}
+

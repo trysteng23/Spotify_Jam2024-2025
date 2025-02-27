@@ -1,4 +1,6 @@
-require('dotenv').config(); // Load .env variables
+// require('dotenv').config(); // Load .env variables
+require('dotenv').config({ path: __dirname + '/.env' });
+
 const express = require('express');
 const cors = require('cors');
 
@@ -6,23 +8,24 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const authRoutes = require('./routes/auth');
-const queueRoutes = require('./routes/queue'); // Import queue routes
-
-
 app.use(cors()); // Enable CORS for frontend-backend communication
 app.use(express.json()); // Allow JSON request bodies
 
+//importing routes
+const { router: authRoutes } = require('./routes/auth');
+const { router: queueRoutes} = require('./routes/queue'); // Import queue routes
+
+//attaching routes
+app.use('/auth', authRoutes);
+app.use('/queue', queueRoutes); // Attach queue routes
+
+
+//root route
 app.get('/', (req, res) => {
     res.send('Spotify Jam App Backend is Running!');
 });
 
+//start server
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
-
-
-//used to implement spotify authentication. Connects to routes/auth.js
-app.use('/auth', authRoutes);
-
-app.use('/queue', queueRoutes); // Attach queue routes
