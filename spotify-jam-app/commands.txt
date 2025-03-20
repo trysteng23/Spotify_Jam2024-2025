@@ -21,3 +21,54 @@ To test queue/add or queue/skip or queue/pause or queue/play routes:
     "Authorization"="Bearer $token"
 }
 
+Creaing a session, Check if host has an active session, retrieve session details (using session ID), and ending Session(using ID):
+      1. Start new session:
+      $headers = @{ "Content-Type" = "application/json" }
+      $body = '{"hostId": "super_chicken355"}'
+      $response = Invoke-RestMethod -Uri "http://localhost:5000/session/start" -Method Post -Headers $headers -Body $body
+
+      $sessionId = $response.sessionId  # Store session ID in variable
+      Write-Output "Session ID: $sessionId"
+
+      2. Check if host has Session (using my spotify Id "super_chicken355"):
+      Invoke-RestMethod -Uri "http://localhost:5000/session/active?hostId=super_chicken355" -Method Get -Headers $headers
+
+      3.Session details:
+      Invoke-RestMethod -Uri "http://localhost:5000/session/$sessionId" -Method Get -Headers $headers
+
+      4. End session:
+      Invoke-RestMethod -Uri "http://localhost:5000/session/$sessionId/end" -Method Delete -Headers $headers
+
+
+#testing queue
+# Add multiple songs from different guests
+$body = '{"guestId": "guest_123", "trackUri": "spotify:track:track_1"}'
+Invoke-RestMethod -Uri "http://localhost:5000/session/$sessionId/queue/add" -Method Post -Headers $headers -Body $body
+
+$body = '{"guestId": "guest_456", "trackUri": "spotify:track:track_2"}'
+Invoke-RestMethod -Uri "http://localhost:5000/session/$sessionId/queue/add" -Method Post -Headers $headers -Body $body
+
+$body = '{"guestId": "guest_123", "trackUri": "spotify:track:track_3"}'
+Invoke-RestMethod -Uri "http://localhost:5000/session/$sessionId/queue/add" -Method Post -Headers $headers -Body $body
+
+# View queue (should return structured list of songs per guest)
+Invoke-RestMethod -Uri "http://localhost:5000/session/$sessionId/queue" -Method Get -Headers $headers
+
+# Get the next song in rotation
+Invoke-RestMethod -Uri "http://localhost:5000/session/$sessionId/queue/next" -Method Get -Headers $headers
+
+
+
+
+
+
+
+
+SPOTIFY TRACK AND PLAYLIST IDs:
+      Tracks:
+            1. Rick Roll: spotify:track:4cOdK2wGLETKBW3PvgPWqT
+            2. Hey Joe:   spotify:track:0NWPxcsf5vdjdiFUI8NgkP
+      Playlists:
+            1. Rock your Soul: spotify:playlist:2MD8SP7jYTGOmBqBzyOWdw
+      Album:
+            1. Jimi hendrix Anthology: spotify:album:6c0U1VcL3Bom0g6HTpUa1i

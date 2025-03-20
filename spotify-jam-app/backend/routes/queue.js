@@ -27,48 +27,77 @@ async function ensureValidToken() {
 
 
 // Route to add a song to the queue
-router.post('/add', checkAuth, async (req, res) => {
-    await ensureValidToken(); // Ensure token is valid before request
-    const { trackUri } = req.body; // Expected input: { "trackUri": "spotify:track:TRACK_ID" }
+// router.post('/add', checkAuth, async (req, res) => {
+//     await ensureValidToken(); // Ensure token is valid before request
+//     const { trackUri } = req.body; // Expected input: { "trackUri": "spotify:track:TRACK_ID" }
 
-    if (!trackUri) {
-        return res.status(400).json({ error: "trackUri is required" });
+//     if (!trackUri) {
+//         return res.status(400).json({ error: "trackUri is required" });
+//     }
+
+//     const response = await fetch(`https://api.spotify.com/v1/me/player/queue?uri=${trackUri}`, {
+//         method: 'POST',
+//         headers: {
+//             'Authorization': `Bearer ${getAccessToken()}`,
+//             'Content-Type': 'application/json'
+//         }
+//     });
+
+    
+//     if (response.status === 204) {
+//         res.json({ message: "Song added to queue successfully!" });
+//     } 
+//     else {
+//         let rawResponseText = await response.text();
+//         let responseData;
+//         try {
+//             responseData = JSON.parse(rawResponseText);  // Try parsing JSON
+//         } catch (e) {
+//             responseData = rawResponseText;  // Use raw response if not JSON
+//         }
+
+//         // If status is 200 or 204, treat it as success
+//         if (response.status === 204 || response.status === 200) {
+//             return res.json({ message: "Song added to queue successfully!", responseData });
+//         }
+
+//         // Otherwise, return an error
+//         console.error("DEBUG: Spotify API Full Error Response:", JSON.stringify(responseData, null, 2));
+//         res.status(response.status).json({ error: "API Error", responseData });
+
+//     }
+
+    
+// });
+router.post("/add", checkAuth, async (req, res) => {
+    await ensureValidToken(); 
+    const { trackUri, sessionId, userId } = req.body; 
+
+    if (!trackUri || !sessionId || !userId) {
+        return res.status(400).json({ error: "Missing trackUri, sessionId, or userId" });
     }
+
+    if (!sessions[sessionId]) {
+        return res.status(404).json({ error: "Session not found" });
+    }
+
+    // Add song to queue, tracking which user added it
+    sessions[sessionId].queue.push({ trackUri, userId });
 
     const response = await fetch(`https://api.spotify.com/v1/me/player/queue?uri=${trackUri}`, {
         method: 'POST',
-        headers: {
-            'Authorization': `Bearer ${getAccessToken()}`,
-            'Content-Type': 'application/json'
-        }
+        headers: { 'Authorization': `Bearer ${getAccessToken()}`, 'Content-Type': 'application/json' }
     });
 
-    
     if (response.status === 204) {
-        res.json({ message: "Song added to queue successfully!" });
-    } 
-    else {
-        let rawResponseText = await response.text();
-        let responseData;
-        try {
-            responseData = JSON.parse(rawResponseText);  // Try parsing JSON
-        } catch (e) {
-            responseData = rawResponseText;  // Use raw response if not JSON
-        }
-
-        // If status is 200 or 204, treat it as success
-        if (response.status === 204 || response.status === 200) {
-            return res.json({ message: "Song added to queue successfully!", responseData });
-        }
-
-        // Otherwise, return an error
-        console.error("DEBUG: Spotify API Full Error Response:", JSON.stringify(responseData, null, 2));
-        res.status(response.status).json({ error: "API Error", responseData });
-
+        res.json({ message: "Song added successfully!", queue: sessions[sessionId].queue });
+    } else {
+        const errorData = await response.json();
+        res.status(response.status).json(errorData);
     }
-
-    
 });
+
+
 
 // Route to skip to the next song
 router.post('/skip', checkAuth, async (req, res) => {

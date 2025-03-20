@@ -14,11 +14,14 @@ app.use(express.json()); // Allow JSON request bodies
 //importing routes
 const { router: authRoutes } = require('./routes/auth');
 const { router: queueRoutes} = require('./routes/queue'); // Import queue routes
+const { router: sessionRoutes } = require('./routes/session');
+
+
 
 //attaching routes
 app.use('/auth', authRoutes);
 app.use('/queue', queueRoutes); // Attach queue routes
-
+app.use('/session', sessionRoutes);
 
 //root route
 app.get('/', (req, res) => {
