@@ -1,7 +1,7 @@
 // require('dotenv').config();
 require('dotenv').config({ path: __dirname + '/.env' });
 
-
+const { sessions } = require('./session');
 const express = require('express');
 const fetch = require('node-fetch');
 const router = express.Router();

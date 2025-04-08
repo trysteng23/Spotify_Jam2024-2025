@@ -67,8 +67,17 @@ Invoke-RestMethod -Uri "http://localhost:5000/session/$sessionId/queue/next" -Me
 SPOTIFY TRACK AND PLAYLIST IDs:
       Tracks:
             1. Rick Roll: spotify:track:4cOdK2wGLETKBW3PvgPWqT
-            2. Hey Joe:   spotify:track:0NWPxcsf5vdjdiFUI8NgkP
+            2. Hey Joe: spotify:track:0NWPxcsf5vdjdiFUI8NgkP
+            4. Spanish Castle Magic: spotify:track:2YfIzKrXYw0oYwwxKlZFb9
       Playlists:
             1. Rock your Soul: spotify:playlist:2MD8SP7jYTGOmBqBzyOWdw
       Album:
             1. Jimi hendrix Anthology: spotify:album:6c0U1VcL3Bom0g6HTpUa1i
+            2. Off the Wall MJ: spotify:album:2ZytN2cY4Zjrr9ukb2rqTP
+
+
+
+
+More desired features:
+      1. when someone joins/leaves, hostdashboard is refreshed to show them in queue.
+      2. refresh host dashboard 
