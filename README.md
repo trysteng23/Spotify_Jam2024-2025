@@ -33,7 +33,7 @@
 - The frontend was built in React for a responsive, dynamic UI with simple user flow.
 - The current implementation is rough and unpolished but completely functional.
 - Host Dashboard Example
-  ![Host Dashboard](screenshots/host_dashboard.png)
+- ![Host Dashboard](screenshots/host_dashboard.png)
 
 ---
 
