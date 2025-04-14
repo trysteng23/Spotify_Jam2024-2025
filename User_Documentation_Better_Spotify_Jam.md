@@ -106,10 +106,10 @@
 ### 3. Guest Join Screen
 ![Guest Join](screenshots/guest_join.png)
 
-### 4. Host Dashboard
+### 4a. Host Dashboard
 ![Host Dashboard](screenshots/host_dashboard.png)
 
-### 4. Guest Dashboard
+### 4b. Guest Dashboard
 ![Guest Dashboard](screenshots/guest_dashboard.png)
 
 ### 5. Save Playlist Prompt
