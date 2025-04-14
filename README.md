@@ -82,9 +82,9 @@
 
 | Semester     | Hours | Description |
 |--------------|-------|-------------|
-| Fall 2024    | 20    | Research, backend structure, Spotify API integration |
-| Spring 2025  | 35    | Frontend design, full-stack integration, testing, UI/UX |
-| **Total**    | **55**| Exceeds 45-hour requirement |
+| Fall 2024    | 45    | Research, backend structure, Spotify API integration |
+| Spring 2025  | 45    | Frontend design, full-stack integration, testing, UI/UX |
+| **Total**    | **90**|
 
 **Justification**:  
 Time was tracked via Notion and Git commits. This solo project required effort across backend, frontend, Spotify integration, testing, and final documentation. A great deal of time was also spent debugging authentication and queue fairness logic. Presentation and preparation efforts added to total commitment.
