@@ -71,7 +71,7 @@
 ## 7. Assessments
 
 ### ✅ Initial Self-Assessment (Fall)
-> Included under "Self-Assessment Essays" in previous report version
+> See [Fall Self Assessment](HomeworkFiles/Assignmment_6_Individual_Assessment.pdf)
 
 ### ✅ Final Self-Assessment (Spring)
 > See [Individual Final Assessment](Final_Deliverables/Assignmment_6_Individual_Assessment.pdf) – Includes reflection on contribution, learning outcomes, and obstacles overcome
