@@ -74,7 +74,7 @@
 > Included under "Self-Assessment Essays" in previous report version
 
 ### ✅ Final Self-Assessment (Spring)
-> See [Individual Final Assessment](Final_Assessment.md) – Includes reflection on contribution, learning outcomes, and obstacles overcome
+> See [Individual Final Assessment](Final_Deliverables/Assignmment_6_Individual_Assessment.pdf) – Includes reflection on contribution, learning outcomes, and obstacles overcome
 
 ---
 
