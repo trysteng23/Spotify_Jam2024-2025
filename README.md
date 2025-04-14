@@ -64,7 +64,7 @@
 
 ## 6. Final Expo Poster
 
-- [🖼️ Download Final Poster](Final_Expo_Poster.pdf)
+- [🖼️ Download Final Poster](Final_Deliverables/Fair Spotify Jam Poster IV.pdf)
 
 ---
 
