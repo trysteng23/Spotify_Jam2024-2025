@@ -97,12 +97,17 @@
 
 ## 🖼️ Screenshots
 
-_To be added before final submission:_
-- Host Dashboard
-- Guest Join Screen
-- Queue View
-- Save Playlist Prompt
+### 1. Host Dashboard
+![Host Dashboard](screenshots/host_dashboard.png)
 
+### 2. Guest Join Screen
+![Guest Join](screenshots/guest_join.png)
+
+### 3. Queue View (Grouped by User)
+![Queue View](screenshots/queue_view.png)
+
+### 4. Save Playlist Prompt
+![Save Playlist Prompt](screenshots/save_playlist.png)
 ---
 
 ## ❓ FAQ
