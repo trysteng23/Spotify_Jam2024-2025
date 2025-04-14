@@ -97,16 +97,22 @@
 
 ## 🖼️ Screenshots
 
-### 1. Host Dashboard
-![Host Dashboard](screenshots/host_dashboard.png)
+### 1. Landing Page
+![Landing Page](screenshots/landing_page.png)
 
-### 2. Guest Join Screen
+### 2. Create Session
+![Create Session](screenshots/create_jam.png)
+
+### 3. Guest Join Screen
 ![Guest Join](screenshots/guest_join.png)
 
-### 3. Queue View (Grouped by User)
-![Queue View](screenshots/queue_view.png)
+### 4. Host Dashboard
+![Host Dashboard](screenshots/host_dashboard.png)
 
-### 4. Save Playlist Prompt
+### 4. Guest Dashboard
+![Guest Dashboard](screenshots/guest_dashboard.png)
+
+### 5. Save Playlist Prompt
 ![Save Playlist Prompt](screenshots/save_playlist.png)
 ---
 
