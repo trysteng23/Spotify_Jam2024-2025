@@ -58,13 +58,13 @@
 
 ## 5. Spring Final PPT Presentation
 
-- [📽️ View Final Presentation Slides](WebbApp_presentation_1.pdf)
+- [View Final Presentation Slides](Final_Deliverables/Better_Spotify_Jam_Presentation.pptx)
 
 ---
 
 ## 6. Final Expo Poster
 
-- [🖼️ Download Final Poster](Final_Deliverables/Fair-Spotify-Jam-Poster-IV.pdf)
+- [🖼️ Final Poster](Final_Deliverables/Fair-Spotify-Jam-Poster-IV.pdf)
 
 ---
 
