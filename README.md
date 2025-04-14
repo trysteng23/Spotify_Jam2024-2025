@@ -30,9 +30,9 @@
 
 ## 2. User Interface Specification
 
-- UI mockups and diagrams were brainstormed and implemented during development.
-- See [UI Sketches](UI_Brainstorming.png) and [Queue Logic Brainstorming](Queue_Logic_Brainstorming.png) for the visual inspiration and design flow.
-- Frontend built in React for responsive, dynamic UI with simple user flow.
+- The frontend was built in React for a responsive, dynamic UI with simple user flow.
+- The current implementation is rough and unpolished but completely functional.
+- Here is a screenshot of the Host Dashboard ![Host Dashboard](screenshots/host_dashboard.png)
 
 ---
 
