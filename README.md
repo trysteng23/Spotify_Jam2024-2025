@@ -85,12 +85,12 @@ The testing conducted for Better Spotify Jam focused primarily on blackbox and f
 
 | Semester     | Hours | Description |
 |--------------|-------|-------------|
-| Fall 2024    | 45    | Research, backend structure, Spotify API integration |
-| Spring 2025  | 45    | Frontend design, full-stack integration, testing, UI/UX |
-| **Total**    | **90**|
+| Fall 2024    | 35    | Research, backend structure, Spotify API integration |
+| Spring 2025  | 58    | Frontend design, full-stack integration, testing, UI/UX |
+| **Total**    | **93**|
 
 **Justification**:  
-Time was tracked via Notion and Git commits. This solo project required effort across backend, frontend, Spotify integration, testing, and final documentation. A great deal of time was also spent debugging authentication and queue fairness logic. Presentation and preparation efforts added to total commitment.
+Time was tracked via logging time while working in a google sheet and Git commits. This solo project required effort across backend, frontend, Spotify integration, testing, final documentation, and class assignments. A great deal of time was also spent debugging authentication and queue fairness logic. Presentation and preparation efforts added to total commitment as well.
 
 ---
 
@@ -102,14 +102,25 @@ Time was tracked via Notion and Git commits. This solo project required effort a
 
 ## 10. Appendix
 
-- [UI Brainstorming](UI_Brainstorming.png)
-- [Queue Logic Sketch](Queue_Logic_Brainstorming.png)
-- [Current Research Notes](Research.md)
-- [Feature Brainstorm List](Ideas.md)
-- [Design Diagrams](Design_Diagrams_MkII.png)
-- [Timeline](Task_Timeline_MkII.png)
-- [Effort Matrix](Task_effort_matrix_mkII.png)
-- [Tasks](TaskList.md)
+The appendix includes supplementary planning and documentation that supported the design and development of the Better Spotify Jam application.
+
+### 📐 Design and Planning Materials
+- [🎨 Host UI Brainstorming/Login Path Sketches](Final_Deliverables/Host_login_view_path.pdf)
+- [🔁 Queue Logic Brainstorming](Final_Deliverables/Queue_Logic_Brainstorming.png)
+- [📊 Task Effort Matrix](Task_effort_matrix_mkII.png)
+- [🗓️ Project Timeline](Task_Timeline_MkII.png)
+- [✅ Final Task List](TaskList.md)
+
+### 📄 Research and Idea Development
+- [📚 Research Notes](Research.md)
+
+### 🧪 Testing Artifacts
+- [✅ Test Plan](Final_Deliverables/Updated_Test_Plan.md)
+- [📋 Test Results Summary](Final_Deliverables/Test_Results.md)
+
+### 🧑‍🏫 Self Assessments
+- [📝 Fall Individual Assessment](HomeworkFiles/individual_assessment.pdf)
+- [📝 Spring Individual Assessment](Final_Deliverables/Assignmment_6_Individual_Assessment.pdf)
 
 ---
 
