@@ -41,7 +41,7 @@
 ### 🧪 Testing Strategy Summary
 The testing conducted for Better Spotify Jam focused primarily on blackbox and functional testing. Tests were designed to validate the normal expected behavior of key features, such as Spotify login, session creation, song queue rotation, and playlist saving. Additional abnormal tests were conducted to ensure the app responded properly to invalid inputs, like incorrect login credentials. Most tests were carried out manually by interacting with the user interface and verifying that the application behaved as intended. While formal unit and automated tests were not used, manual integration tests confirmed that the backend, frontend, and Spotify API were working together smoothly. This level of testing was appropriate for the scope and timeline of a solo-developed capstone project.
 - See detailed [Test Plan](Final_Deliverables/Updated_Test_Plan.md)
-- See [Test Results](Final_Deliverables/Test_results.md)
+- See [Test Results](Final_Deliverables/Test_Results.md)
 - Testing includes normal, abnormal, blackbox, and functional test cases.
 - Example tests:
   - Host login and session creation
