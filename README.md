@@ -90,7 +90,7 @@ The testing conducted for Better Spotify Jam focused primarily on blackbox and f
 | **Total**    | **93**|
 
 **Justification**:  
-Time was tracked via logging time while working in a google sheet and Git commits. This solo project required effort across backend, frontend, Spotify integration, testing, final documentation, and class assignments. A great deal of time was also spent debugging authentication and queue fairness logic. Presentation and preparation efforts added to total commitment as well.
+Time was tracked via allotting specific amounts of time per week for each 1 week or 2 week sprint and Git commits. This solo project required effort across backend, frontend, Spotify integration, testing, final documentation, and class assignments. A great deal of time was also spent debugging authentication and queue fairness logic. Presentation and preparation efforts added to total commitment as well.
 
 ---
 
